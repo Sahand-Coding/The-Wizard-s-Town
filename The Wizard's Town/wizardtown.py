@@ -33,7 +33,7 @@ while True:
                 json.dump(player, file)
 
             with open("./saves/activity.txt", "w") as file:
-                file = ""
+                file.write(" ")
             print(f"Character, {player["name"]} has been made!")
 
         elif user_menu == 2:
