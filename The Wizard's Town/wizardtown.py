@@ -229,7 +229,7 @@ while True:
                                 elif user_quest == 5:
                                     user_quest5 = input("x + y + z = ? ")
 
-                                    if user_quest5 == "k":
+                                    if user_quest5 == 6:
                                         print("Correct! ✅")
                                         player["coins"] = player["coins"] + 250
                                         player["score"] = player["score"] + 1000
